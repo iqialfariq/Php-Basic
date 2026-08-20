@@ -1,17 +1,18 @@
 # 🧠 Penjelasan PHP
 <p align="justify">
-PHP (PHP: Hypertext Preprocessor) adalah bahasa pemrograman server-side yang digunakan untuk mengolah data di server dan membuat website menjadi dinamis.
+PHP (PHP: Hypertext Preprocessor) adalah bahasa pemrograman server-side yang digunakan untuk mengolah data di server dan membuat website menjadi
+dinamis.
 </p>
 
 ---
 
 ## 🖥️ Macam-macam output pada PHP
 <p align="justify">Digunakan untuk menampilkan hasil dari PHP ke layar monitor.</p>
-```text
+
+```php
 echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
 Contoh Penggunaan:
-```
-```php
+
 <?php
     $nama = "Budi";
     echo $nama; // Output: Budi
@@ -20,7 +21,6 @@ Contoh Penggunaan:
 
 ```php
 print → Digunakan untuk menampilkan output seperti `echo`
-
 Contoh Penggunaan:
 
 <?php
@@ -31,7 +31,6 @@ Contoh Penggunaan:
 
 ```php
 print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
-
 Contoh Penggunaan:
 
 <?php
@@ -42,7 +41,6 @@ Contoh Penggunaan:
 
 ```php
 var_dump() →  Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
-
 Contoh Penggunaan:
 
 <?php
@@ -145,25 +143,24 @@ PHP itu ada 5</p>
 ## ⚖️ Pengkondisian
 <p align="justify">Pengkondisian (conditional statement) adalah cara program untuk menentukan tindakan berdasarkan suatu kondisi.</p>
 
-#### 📎 IF
+#### 📎 IF → Digunakan untuk menjalankan kode jika suatu kondisi bernilai true.
 ```php
-    if digunakan untuk menjalankan kode jika suatu kondisi bernilai true.
+Contoh Penggunaan:
 
-    Contoh Penggunaan:
-
+<?php
     $umur = 20;
 
     if ($umur >= 17) {
         echo "Sudah dewasa";
     }
+?>
 ```
 
-#### 📎 IF ELSE
+#### 📎 IF ELSE → Digunakan ketika ada dua kemungkinan suatu kondisi true dan false.
 ```php
-    if else digunakan ketika ada dua kemungkinan suatu kondisi true dan false.
+Contoh Penggunaan:
 
-    Contoh Penggunaan:
-
+<?php
     $umur = 15;
 
     if ($umur >= 17) {
@@ -171,14 +168,14 @@ PHP itu ada 5</p>
     } else {
         echo "Belum dewasa";
     }
+?>
 ```
 
-#### 📎 IF ELSE IF ELSE
+#### 📎 IF ELSE IF ELSE → Digunakan ketika ada lebih dari dua kemungkinan suatu kondisi true dan false.
 ```php
-    if else if else digunakan ketika ada lebih dari dua kemungkinan suatu kondisi true dan false.
+Contoh Penggunaan:
 
-    Contoh Penggunaan:
-
+<?php
     $nilai = 80;
 
     if ($nilai >= 90) {
@@ -190,14 +187,14 @@ PHP itu ada 5</p>
     } else {
         echo "D";
     }
+?>
 ```
 
-#### 📎 NESTED IF
+#### 📎 NESTED IF → Ini adalah if di dalam if atau lebih umum nya pengkondisian bersarang.
 ```php
-    Ini adalah if di dalam if atau lebih umum nya pengkondisian bersarang.
+Contoh Penggunaan:
 
-    Contoh Penggunaan:
-
+<?php
     $umur = 20;
     $punyaKTP = true;
     
@@ -208,14 +205,14 @@ PHP itu ada 5</p>
         }
     
     }
+?>
 ```
 
-#### 📎 SWITCH
+#### 📎 SWITCH → Digunakan ketika kita ingin membandingkan satu nilai dengan beberapa kemungkinan nilai.
 ```php
-    switch digunakan ketika kita ingin membandingkan satu nilai dengan beberapa kemungkinan nilai.
+Contoh Penggunaan:
 
-    Contoh Penggunaan:
-
+<?php
     $hari = "Senin";
 
     switch ($hari) {
@@ -234,10 +231,12 @@ PHP itu ada 5</p>
         default:
             echo "Hari tidak diketahui";
     }
+?>
 ```
 
-#### 📎 MATCH
+#### 📎 MATCH → Digunakan buat membandingkan satu nilai dengan beberapa kemungkinan nilai dan konsep nya mirip switch
 ```php
+Contoh Penggunaan:
     $hari = "Senin";
 
     $hasil = match ($hari) {
