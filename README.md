@@ -40,7 +40,7 @@ Contoh Penggunaan:
 ```
 
 ```php
-var_dump() →  Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
+var_dump() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
 Contoh Penggunaan:
 
 <?php
@@ -75,7 +75,7 @@ Contoh Penggunaan:
 Contoh Penggunaan:
 
 <?php
-    $nama = "Budi";       // string
+    $nama = "Budi";        // string
     $umur = 20;            // integer
     $harga = 19.5;         // float
     $status = true;        // boolean
