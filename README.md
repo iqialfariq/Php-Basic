@@ -136,6 +136,7 @@ PHP itu ada 5</p>
 ### ✏️ Ternary
 ```text
     Ini operator yang digunakan sebagai bentuk singkat dari if-else.
-    Contoh: kondisi ? nilaiJikaBenar : nilaiJikaSalah;
+    Contoh:
+    kondisi ? nilaiJikaBenar : nilaiJikaSalah;
 ```
 ---
