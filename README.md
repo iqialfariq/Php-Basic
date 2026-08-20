@@ -5,7 +5,7 @@ PHP (PHP: Hypertext Preprocessor) adalah bahasa pemrograman server-side yang dig
 
 ---
 
-## 🧭 Macam-macam output pada PHP
+## 🖥️ Macam-macam output pada PHP
 <p align="justify">Digunakan untuk menampilkan hasil dari PHP ke layar monitor.</p>
 
 ```php
@@ -70,7 +70,7 @@ Contoh Penggunaan:
 
 ---
 
-## ✏️ Tipe data pada PHP
+## 🗃️ Tipe data pada PHP
 <p align="justify">Tipe data pada PHP adalah jenis nilai yang akan di simpan di variabel</p>
 
 ```php
@@ -88,11 +88,11 @@ Contoh Penggunaan:
 
 ---
 
-## ✏️ Macam-macam operator pada PHP
+## ⚙️ Macam-macam operator pada PHP
 <p align="justify">Operator pada PHP adalah simbol yang digunakan untuk melakukan operasi terhadap suatu nilai atau variabel. Secara umum operator di
 PHP itu ada 5</p>
 
-### ✏️ Operator Aritmatika
+### 📎 Operator Aritmatika
 ```text
     penjumlahan → +
     pengurangan → -
@@ -102,7 +102,7 @@ PHP itu ada 5</p>
     Perpangkatan → **
 ```
 
-### ✏️ Operator Assignment / Penugasan
+### 📎 Operator Assignment / Penugasan
 ```text
     sama dengan → =
     plus sama dengan → +=
@@ -113,7 +113,7 @@ PHP itu ada 5</p>
     titik sama dengan → .=
 ```
 
-### ✏️ Operator Perbandingan
+### 📎 Operator Perbandingan
 ```text
     sama nilai → ==
     sama nilai dan tipe data → ===
@@ -126,14 +126,14 @@ PHP itu ada 5</p>
     Spaceship → <=>
 ```
 
-### ✏️ Operator Logika
+### 📎 Operator Logika
 ```text
     Operator AND → && (Semua kondisi harus benar)
     Operator OR → || (Minimal salah satu kondisi benar)
     Operator NOT → ! (Membalik nilai boolean)
 ```
 
-### ✏️ Ternary
+### 📎 Ternary
 ```text
     Ini operator yang digunakan sebagai bentuk singkat dari if-else.
     Contoh:
