@@ -139,4 +139,114 @@ PHP itu ada 5</p>
     Contoh:
     kondisi ? nilaiJikaBenar : nilaiJikaSalah;
 ```
+
+---
+
+## ⚖️ Pengkondisian
+<p align="justify">Pengkondisian (conditional statement) adalah cara program untuk menentukan tindakan berdasarkan suatu kondisi.</p>
+
+### 📎 IF
+```php
+    if digunakan untuk menjalankan kode jika suatu kondisi bernilai true.
+
+    Contoh Penggunaan:
+
+    $umur = 20;
+
+    if ($umur >= 17) {
+        echo "Sudah dewasa";
+    }
+```
+
+### 📎 IF ELSE
+```php
+    if else digunakan ketika ada dua kemungkinan suatu kondisi true dan false.
+
+    Contoh Penggunaan:
+
+    $umur = 15;
+
+    if ($umur >= 17) {
+        echo "Sudah dewasa";
+    } else {
+        echo "Belum dewasa";
+    }
+```
+
+### 📎 IF ELSE IF ELSE
+```php
+    if else if else digunakan ketika ada lebih dari dua kemungkinan suatu kondisi true dan false.
+
+    Contoh Penggunaan:
+
+    $nilai = 80;
+
+    if ($nilai >= 90) {
+        echo "A";
+    } elseif ($nilai >= 80) {
+        echo "B";
+    } elseif ($nilai >= 70) {
+        echo "C";
+    } else {
+        echo "D";
+    }
+```
+
+### 📎 NESTED IF
+```php
+    Ini adalah if di dalam if atau lebih umum nya pengkondisian bersarang.
+
+    Contoh Penggunaan:
+
+    $umur = 20;
+    $punyaKTP = true;
+    
+    if ($umur >= 17) {
+    
+        if ($punyaKTP) {
+            echo "Boleh mendaftar";
+        }
+    
+    }
+```
+
+### 📎 SWITCH
+```php
+    switch digunakan ketika kita ingin membandingkan satu nilai dengan beberapa kemungkinan nilai.
+
+    Contoh Penggunaan:
+
+    $hari = "Senin";
+
+    switch ($hari) {
+        case "Senin":
+            echo "Hari kerja";
+            break;
+    
+        case "Sabtu":
+            echo "Hari libur";
+            break;
+    
+        case "Minggu":
+            echo "Hari libur";
+            break;
+    
+        default:
+            echo "Hari tidak diketahui";
+    }
+```
+
+### 📎 MATCH
+```php
+    $hari = "Senin";
+
+    $hasil = match ($hari) {
+        "Senin" => "Hari kerja",
+        "Sabtu", "Minggu" => "Hari libur",
+        default => "Tidak diketahui"
+    };
+    
+    echo $hasil;
+```
+
 ---
