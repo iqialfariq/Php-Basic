@@ -265,44 +265,79 @@ Contoh Penggunaan:
 ```php
 Contoh Penggunaan:
 
+<?php
     for ($i = 1; $i <= 5; $i++) {
         echo $i;
     }
+    // Output: 12345
+?>
 ```
 
 #### 📎 WHILE → Digunakan untuk melakukan perulangan selama kondisi bernilai true.
 ```php
 Contoh Penggunaan:
 
+<?php
     $i = 1;
     
     while ($i <= 5) {
         echo $i;
         $i++;
     }
+    // Output: 12345
+?>
 ```
 
 #### 📎 DO...WHILE → Digunakan agar kode dijalankan terlebih dahulu, baru kondisi diperiksa.
 ```php
 Contoh Penggunaan:
 
+<?php
     $i = 1;
     
     do {
         echo $i;
         $i++;
     } while ($i <= 5);
+    // Output: 12345
+?>
 ```
 
 #### 📎 FOREACH → Digunakan untuk mengulang berdasarkan kondisi atau angka, foreach lebih khusus digunakan untuk mengulang data dalam array.
 ```php
 Contoh Penggunaan:
 
+<?php
     $buah = ["Apel", "Mangga", "Jeruk"];
 
     foreach ($buah as $b) {
         echo $b;
     }
+    // Output: Apel Mangga Jeruk
+?>
 ```
 
 ---
+
+## 🧩 Function
+<p align="justify">Function adalah sekumpulan kode yang dibuat untuk melakukan tugas tertentu dan bisa kita panggil kapan saja ketika dibutuhkan.
+Penulisan function di PHP di awali dengan keyword function lalu nama fungsi nya apa contoh: function tambah()</p>
+
+```php
+Contoh Penggunaan:
+
+<?php
+    function sapa() {
+        echo "Halo, selamat datang!";
+    }
+    sapa();
+    // Output: Halo, selamat datang!
+?>
+```
+
+---
+
+## 🧩 Built in Function pada PHP
+<p align="justify">Built-in Function adalah function yang sudah disediakan oleh PHP. Jadi kita nggak perlu membuat function-nya sendiri, tinggal
+memanggilnya sesuai kebutuhan.</p>
+
