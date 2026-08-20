@@ -46,7 +46,7 @@ Contoh Penggunaan:
 <?php
     $nama = "Budi";
     $umur = 20;
-    var_dump($nama, $umur); // string(4) "Budi" int(20)
+    var_dump($nama, $umur); // Output: string(4) "Budi" int(20)
 ?>
 ```
 
@@ -154,6 +154,7 @@ Contoh Penggunaan:
     if ($umur >= 17) {
         echo "Sudah dewasa";
     }
+    // Output: Sudah dewasa
 ?>
 ```
 
@@ -169,6 +170,7 @@ Contoh Penggunaan:
     } else {
         echo "Belum dewasa";
     }
+    // Output: Belum dewasa
 ?>
 ```
 
@@ -181,13 +183,14 @@ Contoh Penggunaan:
 
     if ($nilai >= 90) {
         echo "A";
-    } elseif ($nilai >= 80) {
+    } else if ($nilai >= 80) {
         echo "B";
-    } elseif ($nilai >= 70) {
+    } else if ($nilai >= 70) {
         echo "C";
     } else {
         echo "D";
     }
+    // Output: B
 ?>
 ```
 
@@ -200,12 +203,11 @@ Contoh Penggunaan:
     $punyaKTP = true;
     
     if ($umur >= 17) {
-    
         if ($punyaKTP) {
             echo "Boleh mendaftar";
         }
-    
     }
+    // Output: Boleh mendaftar
 ?>
 ```
 
@@ -232,6 +234,7 @@ Contoh Penggunaan:
         default:
             echo "Hari tidak diketahui";
     }
+    // Output: Hari kerja
 ?>
 ```
 
@@ -239,6 +242,7 @@ Contoh Penggunaan:
 ```php
 Contoh Penggunaan:
 
+<?php
     $hari = "Senin";
 
     $hasil = match ($hari) {
@@ -248,11 +252,13 @@ Contoh Penggunaan:
     };
     
     echo $hasil;
+    // Output: Hari kerja
+?>
 ```
 
 ---
 
-## ⚖️ Perulangan
+## 🔄 Perulangan
 <p align="justify">Perulangan (loop) adalah proses menjalankan kode berulang kali selama kondisi tertentu masih terpenuhi.</p>
 
 #### 📎 FOR → Digunakan ketika kita mengetahui berapa kali perulangan ingin dilakukan.
