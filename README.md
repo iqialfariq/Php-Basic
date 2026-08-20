@@ -55,8 +55,9 @@ Contoh Penggunaan:
 
 ---
 
-## ✏️ Variabel pada PHP
-<p align="justify">Variabel pada PHP digunakan untuk menampung sebuah nilai atau data. Penulisan variabel pada PHP di awali dengan simbol dolar lalu nama variabel nya apa contoh: $namavariabel</p>
+## 🏷️ Variabel pada PHP
+<p align="justify">Variabel pada PHP digunakan untuk menampung sebuah nilai atau data. Penulisan variabel pada PHP di awali dengan simbol dolar lalu
+nama variabel nya apa contoh: $namavariabel</p>
 
 ```php
 Contoh Penggunaan:
@@ -92,7 +93,7 @@ Contoh Penggunaan:
 <p align="justify">Operator pada PHP adalah simbol yang digunakan untuk melakukan operasi terhadap suatu nilai atau variabel. Secara umum operator di
 PHP itu ada 5</p>
 
-### 📎 Operator Aritmatika
+#### 📎 Operator Aritmatika
 ```text
     penjumlahan → +
     pengurangan → -
@@ -102,7 +103,7 @@ PHP itu ada 5</p>
     Perpangkatan → **
 ```
 
-### 📎 Operator Assignment / Penugasan
+#### 📎 Operator Assignment / Penugasan
 ```text
     sama dengan → =
     plus sama dengan → +=
@@ -113,7 +114,7 @@ PHP itu ada 5</p>
     titik sama dengan → .=
 ```
 
-### 📎 Operator Perbandingan
+#### 📎 Operator Perbandingan
 ```text
     sama nilai → ==
     sama nilai dan tipe data → ===
@@ -126,14 +127,14 @@ PHP itu ada 5</p>
     Spaceship → <=>
 ```
 
-### 📎 Operator Logika
+#### 📎 Operator Logika
 ```text
     Operator AND → && (Semua kondisi harus benar)
     Operator OR → || (Minimal salah satu kondisi benar)
     Operator NOT → ! (Membalik nilai boolean)
 ```
 
-### 📎 Ternary
+#### 📎 Ternary
 ```text
     Ini operator yang digunakan sebagai bentuk singkat dari if-else.
     Contoh:
@@ -145,7 +146,7 @@ PHP itu ada 5</p>
 ## ⚖️ Pengkondisian
 <p align="justify">Pengkondisian (conditional statement) adalah cara program untuk menentukan tindakan berdasarkan suatu kondisi.</p>
 
-### 📎 IF
+#### 📎 IF
 ```php
     if digunakan untuk menjalankan kode jika suatu kondisi bernilai true.
 
@@ -158,7 +159,7 @@ PHP itu ada 5</p>
     }
 ```
 
-### 📎 IF ELSE
+#### 📎 IF ELSE
 ```php
     if else digunakan ketika ada dua kemungkinan suatu kondisi true dan false.
 
@@ -173,7 +174,7 @@ PHP itu ada 5</p>
     }
 ```
 
-### 📎 IF ELSE IF ELSE
+#### 📎 IF ELSE IF ELSE
 ```php
     if else if else digunakan ketika ada lebih dari dua kemungkinan suatu kondisi true dan false.
 
@@ -192,7 +193,7 @@ PHP itu ada 5</p>
     }
 ```
 
-### 📎 NESTED IF
+#### 📎 NESTED IF
 ```php
     Ini adalah if di dalam if atau lebih umum nya pengkondisian bersarang.
 
@@ -210,7 +211,7 @@ PHP itu ada 5</p>
     }
 ```
 
-### 📎 SWITCH
+#### 📎 SWITCH
 ```php
     switch digunakan ketika kita ingin membandingkan satu nilai dengan beberapa kemungkinan nilai.
 
@@ -236,7 +237,7 @@ PHP itu ada 5</p>
     }
 ```
 
-### 📎 MATCH
+#### 📎 MATCH
 ```php
     $hari = "Senin";
 
