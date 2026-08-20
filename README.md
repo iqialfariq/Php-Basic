@@ -75,7 +75,7 @@ Contoh Penggunaan:
 Contoh Penggunaan:
 
 <?php
-    $nama = "Risqi";       // string
+    $nama = "Budi";       // string
     $umur = 20;            // integer
     $harga = 19.5;         // float
     $status = true;        // boolean
@@ -135,6 +135,7 @@ PHP itu ada 5</p>
 ```text
     Ini operator yang digunakan sebagai bentuk singkat dari if-else.
     Contoh:
+
     kondisi ? nilaiJikaBenar : nilaiJikaSalah;
 ```
 
@@ -234,9 +235,10 @@ Contoh Penggunaan:
 ?>
 ```
 
-#### 📎 MATCH → Digunakan buat membandingkan satu nilai dengan beberapa kemungkinan nilai dan konsep nya mirip switch
+#### 📎 MATCH → Digunakan buat membandingkan satu nilai dengan beberapa kemungkinan nilai (mirip switch)
 ```php
 Contoh Penggunaan:
+
     $hari = "Senin";
 
     $hasil = match ($hari) {
