@@ -12,33 +12,40 @@ PHP (PHP: Hypertext Preprocessor) adalah bahasa pemrograman server-side yang dig
 echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
 
 Contoh Penggunaan:
+
 <?php
     $nama = "Budi";
     echo $nama; // Output: Budi
 ?>
 ```
+
 ```php
 print → Digunakan untuk menampilkan output seperti `echo`
 
 Contoh Penggunaan:
+
 <?php
     $nama = "Budi";
     print $nama; // Output: Budi
 ?>
 ```
+
 ```php
 print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
 
 Contoh Penggunaan:
+
 <?php
     $buah = ["apel", "pisang", "jeruk"];
     print_r($buah); // Output: Array ( [0] => apel [1] => pisang [2] => jeruk )
 ?>
 ```
+
 ```php
 var_dump() →  Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
 
 Contoh Penggunaan:
+
 <?php
     $nama = "Budi";
     $umur = 20;
