@@ -20,7 +20,7 @@ Contoh Penggunaan:
 ```
 
 ```php
-print → Digunakan untuk menampilkan output seperti `echo`
+print → Digunakan untuk menampilkan output seperti `echo`.
 Contoh Penggunaan:
 
 <?php
@@ -54,7 +54,7 @@ Contoh Penggunaan:
 
 ## 🏷️ Variabel pada PHP
 <p align="justify">Variabel pada PHP digunakan untuk menampung sebuah nilai atau data. Penulisan variabel pada PHP di awali dengan simbol dolar lalu
-nama variabel nya apa contoh: $namavariabel</p>
+nama variabel nya apa contoh: $namavariabel.</p>
 
 ```php
 Contoh Penggunaan:
@@ -69,7 +69,7 @@ Contoh Penggunaan:
 ---
 
 ## 🗃️ Tipe data pada PHP
-<p align="justify">Tipe data pada PHP adalah jenis nilai yang akan di simpan di variabel</p>
+<p align="justify">Tipe data pada PHP adalah jenis nilai yang akan di simpan di variabel.</p>
 
 ```php
 Contoh Penggunaan:
@@ -88,7 +88,7 @@ Contoh Penggunaan:
 
 ## ⚙️ Macam-macam operator pada PHP
 <p align="justify">Operator pada PHP adalah simbol yang digunakan untuk melakukan operasi terhadap suatu nilai atau variabel. Secara umum operator di
-PHP itu ada 5</p>
+PHP itu ada 5.</p>
 
 #### 📎 Operator Aritmatika
 ```text
@@ -235,7 +235,7 @@ Contoh Penggunaan:
 ?>
 ```
 
-#### 📎 MATCH → Digunakan buat membandingkan satu nilai dengan beberapa kemungkinan nilai (mirip switch)
+#### 📎 MATCH → Digunakan buat membandingkan satu nilai dengan beberapa kemungkinan nilai (mirip switch).
 ```php
 Contoh Penggunaan:
 
@@ -248,6 +248,55 @@ Contoh Penggunaan:
     };
     
     echo $hasil;
+```
+
+---
+
+## ⚖️ Perulangan
+<p align="justify">Perulangan (loop) adalah proses menjalankan kode berulang kali selama kondisi tertentu masih terpenuhi.</p>
+
+#### 📎 FOR → Digunakan ketika kita mengetahui berapa kali perulangan ingin dilakukan.
+```php
+Contoh Penggunaan:
+
+    for ($i = 1; $i <= 5; $i++) {
+        echo $i;
+    }
+```
+
+#### 📎 WHILE → Digunakan untuk melakukan perulangan selama kondisi bernilai true.
+```php
+Contoh Penggunaan:
+
+    $i = 1;
+    
+    while ($i <= 5) {
+        echo $i;
+        $i++;
+    }
+```
+
+#### 📎 DO...WHILE → Digunakan agar kode dijalankan terlebih dahulu, baru kondisi diperiksa.
+```php
+Contoh Penggunaan:
+
+    $i = 1;
+    
+    do {
+        echo $i;
+        $i++;
+    } while ($i <= 5);
+```
+
+#### 📎 FOREACH → Digunakan untuk mengulang berdasarkan kondisi atau angka, foreach lebih khusus digunakan untuk mengulang data dalam array.
+```php
+Contoh Penggunaan:
+
+    $buah = ["Apel", "Mangga", "Jeruk"];
+
+    foreach ($buah as $b) {
+        echo $b;
+    }
 ```
 
 ---
