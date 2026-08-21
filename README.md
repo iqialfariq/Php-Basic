@@ -347,6 +347,7 @@ memanggilnya sesuai kebutuhan.</p>
     time() → Digunakan untuk menghasilkan Unix timestamp saat ini.
     mktime() → Digunakan untuk membuat timestamp dari tanggal/waktu tertentu.
     strtotime() → Digunakan untuk mengubah string tanggal/waktu menjadi timestamp.
+
     format penting:
     d = tanggal 2 digit
     m = bulan 2 digit
@@ -380,7 +381,7 @@ memanggilnya sesuai kebutuhan.</p>
 
 ## 📦 Array pada PHP
 <p align="justify">Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Dalam PHP array ada 3 jenis yaitu Indexed
-Array atau array numerik, Associative Array, dan Multidimensional Array</p>
+Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
 
 #### 📎 Array Numerik (Array numerik adalah array yang setiap elemennya memiliki index berupa angka).
 ```php
@@ -402,7 +403,7 @@ Array atau array numerik, Associative Array, dan Multidimensional Array</p>
             "umur" => 20,
             "jurusan" => "Mekatronika"
         ];
-        echo $data["umur"];
+        echo $data["jurusan"];
         // Output: Mekatronika
     ?>
 ```
@@ -429,11 +430,11 @@ Array atau array numerik, Associative Array, dan Multidimensional Array</p>
             echo "<br><br>";
         }
         // Output:
-            Nama : Rizal
-            Umur : 20
+        // Nama : Rizal
+        // Umur : 20
             
-            Nama : Budi
-            Umur : 21
+        // Nama : Budi
+        // Umur : 21
     ?>
 ```
 
