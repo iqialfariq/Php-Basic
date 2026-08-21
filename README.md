@@ -325,7 +325,8 @@ Contoh Penggunaan:
 
 ## 🧩 Function
 <p align="justify">Function adalah sekumpulan kode yang dibuat untuk melakukan tugas tertentu dan bisa kita panggil kapan saja ketika dibutuhkan.
-Penulisan function di PHP di awali dengan keyword function lalu nama fungsi nya apa contoh: function tambah()</p>
+Penulisan function di PHP di awali dengan keyword function lalu nama fungsi nya apa
+contoh: function tambah().</p>
 
 ```php
 Contoh Penggunaan:
