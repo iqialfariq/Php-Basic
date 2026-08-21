@@ -11,6 +11,7 @@ dinamis.
 
 ```php
 echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
+
 Contoh Penggunaan:
 
 <?php
@@ -21,6 +22,7 @@ Contoh Penggunaan:
 
 ```php
 print → Digunakan untuk menampilkan output seperti `echo`.
+
 Contoh Penggunaan:
 
 <?php
@@ -31,6 +33,7 @@ Contoh Penggunaan:
 
 ```php
 print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
+
 Contoh Penggunaan:
 
 <?php
@@ -41,6 +44,7 @@ Contoh Penggunaan:
 
 ```php
 var_dump() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
+
 Contoh Penggunaan:
 
 <?php
@@ -380,7 +384,7 @@ memanggilnya sesuai kebutuhan.</p>
 ---
 
 ## 📦 Array pada PHP
-<p align="justify">Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Dalam PHP array ada 3 jenis yaitu Indexed
+<p align="justify">Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Dalam PHP array ada tiga jenis yaitu Indexed
 Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
 
 #### 📎 Array Numerik (Array numerik adalah array yang setiap elemennya memiliki index berupa angka).
