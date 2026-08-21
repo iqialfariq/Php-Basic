@@ -9,7 +9,7 @@ dinamis.
 ## 🖥️ Macam-macam output pada PHP
 <p align="justify">Digunakan untuk menampilkan hasil dari PHP ke layar monitor.</p>
 
-#### 📎 echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
+#### 📎 ECHO → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
 ```php
 Contoh Penggunaan:
 
@@ -19,7 +19,7 @@ Contoh Penggunaan:
 ?>
 ```
 
-#### 📎 print → Digunakan untuk menampilkan output seperti `echo`.
+#### 📎 PRINT → Digunakan untuk menampilkan output seperti `echo`.
 ```php
 Contoh Penggunaan:
 
@@ -29,7 +29,7 @@ Contoh Penggunaan:
 ?>
 ```
 
-#### 📎 print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
+#### 📎 PRINT_R() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
 ```php
 Contoh Penggunaan:
 
@@ -39,7 +39,7 @@ Contoh Penggunaan:
 ?>
 ```
 
-#### 📎 var_dump() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
+#### 📎 VAR_DUMP() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
 ```php
 Contoh Penggunaan:
 
