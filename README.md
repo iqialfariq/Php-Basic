@@ -342,7 +342,7 @@ Contoh Penggunaan:
 <p align="justify">Built-in Function adalah function yang sudah disediakan oleh PHP. Jadi kita nggak perlu membuat function-nya sendiri, tinggal
 memanggilnya sesuai kebutuhan.</p>
 
-#### 📎 Built in Function untuk waktu
+#### 📎 Built in Function untuk waktu.
 ```php
     date() → Digunakan untuk menampilkan tanggal/waktu dengan format tertentu.
     time() → Digunakan untuk menghasilkan Unix timestamp saat ini.
@@ -359,7 +359,7 @@ memanggilnya sesuai kebutuhan.</p>
     s = detik
 ```
 
-#### 📎 Built in Function untuk string
+#### 📎 Built in Function untuk string.
 ```php
     strlen() → Digunakan untuk menghitung panjang string.
     strcmp() → Digunakan untuk membandingkan dua string.
@@ -369,7 +369,7 @@ memanggilnya sesuai kebutuhan.</p>
     htmlspecialchars() → Digunakan untuk mengubah karakter khusus HTML menjadi bentuk aman untuk ditampilkan sebagai teks.
 ```
 
-#### 📎 Built in Function untuk utility Function
+#### 📎 Built in Function untuk utility Function.
 ```php
     isset() → Digunakan untuk mengecek apakah variabel/key tersedia dan nilainya bukan null.
     empty() → Digunakan untuk mengecek apakah sebuah nilai dianggap kosong.
@@ -458,7 +458,7 @@ perlu menggunakan global.</p>
 
 ---
 
-## 🌐 Database pada PHP
+## 🗄️ Database pada PHP
 <p align="justify">Database adalah tempat untuk menyimpan dan mengelola data secara terstruktur.</p>
 
 #### 📎mysqli_connect() → Digunakan untuk membuat koneksi PHP dengan database MySQL.
