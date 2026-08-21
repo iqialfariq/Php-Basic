@@ -9,9 +9,8 @@ dinamis.
 ## 🖥️ Macam-macam output pada PHP
 <p align="justify">Digunakan untuk menampilkan hasil dari PHP ke layar monitor.</p>
 
+#### 📎 echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
 ```php
-echo → Digunakan untuk menampilkan lebih dari satu argumen dan umumnya digunakan untuk output biasa.
-
 Contoh Penggunaan:
 
 <?php
@@ -20,9 +19,8 @@ Contoh Penggunaan:
 ?>
 ```
 
+#### 📎 print → Digunakan untuk menampilkan output seperti `echo`.
 ```php
-print → Digunakan untuk menampilkan output seperti `echo`.
-
 Contoh Penggunaan:
 
 <?php
@@ -31,9 +29,8 @@ Contoh Penggunaan:
 ?>
 ```
 
+#### 📎 print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
 ```php
-print_r() → Digunakan untuk melihat isi array atau struktur data sederhana beserta index nya.
-
 Contoh Penggunaan:
 
 <?php
@@ -42,9 +39,8 @@ Contoh Penggunaan:
 ?>
 ```
 
+#### 📎 var_dump() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
 ```php
-var_dump() → Digunakan untuk menampilkan nilai sekaligus informasi tipe datanya.
-
 Contoh Penggunaan:
 
 <?php
@@ -388,7 +384,7 @@ memanggilnya sesuai kebutuhan.</p>
 <p align="justify">Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Dalam PHP array ada tiga jenis yaitu Indexed
 Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
 
-#### 📎 Array Numerik (Array numerik adalah array yang setiap elemennya memiliki index berupa angka).
+#### 📎 Array Numerik → Array numerik adalah array yang setiap elemennya memiliki index berupa angka.
 ```php
     <?php
         $buah = ["Apel", "Mangga", "Jeruk"];
@@ -400,7 +396,7 @@ Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
     ?>
 ```
 
-#### 📎 Array Associative (Array associative adalah array yang index-nya berupa key yang kita tentukan sendiri).
+#### 📎 Array Associative → Array associative adalah array yang index-nya berupa key yang kita tentukan sendiri.
 ```php
     <?php
         $data = [
@@ -413,7 +409,7 @@ Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
     ?>
 ```
 
-#### 📎 Array Multidimensi (Array multidimensi adalah array yang di dalamnya terdapat array lainnya.).
+#### 📎 Array Multidimensi → Array multidimensi adalah array yang di dalamnya terdapat array lainnya.
 ```php
     <?php
         $siswa = [
