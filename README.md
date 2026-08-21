@@ -440,3 +440,88 @@ Array atau array numerik, Associative Array, dan Multidimensional Array.</p>
 ```
 
 ---
+
+## 🌐 Variabel Superglobal pada PHP
+<p align="justify">Variabel superglobal adalah variabel bawaan PHP yang bisa diakses dari mana saja dalam script PHP, termasuk di dalam function, tanpa
+perlu menggunakan global.</p>
+
+```php
+    $_GET → Digunakan untuk mengambil data dari URL.
+    $_POST → Digunakan untuk mengambil data dari form dengan method POST.
+    $_SESSION → Digunakan untuk menyimpan data selama session berlangsung.
+    $_COOKIE → Digunakan untuk menyimpan dan mengambil data cookie.
+    $_SERVER → Digunakan untuk mendapatkan informasi server dan request.
+    $_FILES → Digunakan untuk mengakses file yang di-upload.
+    $_REQUEST → Digunakan untuk mengambil data dari request.
+    $_ENV → Digunakan untuk mengakses environment variable.
+```
+
+---
+
+## 🌐 Database pada PHP
+<p align="justify">Database adalah tempat untuk menyimpan dan mengelola data secara terstruktur.</p>
+
+#### 📎mysqli_connect() → Digunakan untuk membuat koneksi PHP dengan database MySQL.
+```php
+Contoh Penggunaan:
+
+    $conn = mysqli_connect("localhost", "root", "", "db_toko");
+```
+
+#### 📎mysqli_query() → Digunakan untuk menjalankan SQL query pada database seperti SELECT, INSERT, UPDATE, dan DELETE.
+```php
+Contoh Penggunaan:
+
+    $result = mysqli_query($conn, "SELECT * FROM users");
+```
+
+#### 📎mysqli_fetch_assoc() → Digunakan untuk mengambil satu baris hasil query dalam bentuk associative array.
+```php
+Contoh Penggunaan:
+
+    $data = mysqli_fetch_assoc($result);
+    echo $data["nama"];
+```
+
+#### 📎mysqli_fetch_row() → Digunakan untuk mengambil satu baris hasil query dalam bentuk indexed array.
+```php
+Contoh Penggunaan:
+
+    $data = mysqli_fetch_row($result);
+    echo $data[0];
+```
+
+#### 📎mysqli_fetch_array() → Digunakan untuk mengambil satu baris hasil query sebagai array yang bisa menggunakan index numerik maupun associative.
+```php
+Contoh Penggunaan:
+
+    $data = mysqli_fetch_array($result);
+
+    echo $data["nama"];
+    echo $data[0];
+```
+
+#### 📎mysqli_num_rows() → Digunakan untuk menghitung jumlah baris hasil query.
+```php
+Contoh Penggunaan:
+
+    $result = mysqli_query($conn, "SELECT * FROM users");
+    echo mysqli_num_rows($result);
+```
+
+#### 📎mysqli_error() → Digunakan untuk mendapatkan informasi error dari koneksi/query MySQLi.
+```php
+Contoh Penggunaan:
+
+    $result = mysqli_query($conn, "SELECT * FROM tabel_salah");
+    if (!$result) {
+        echo mysqli_error($conn);
+    }
+```
+
+#### 📎mysqli_close() → Digunakan untuk menutup koneksi database.
+```php
+Contoh Penggunaan:
+
+    mysqli_close($conn);
+```
