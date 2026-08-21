@@ -337,7 +337,104 @@ Contoh Penggunaan:
 
 ---
 
-## 🧩 Built in Function pada PHP
+## 🧰 Built in Function pada PHP
 <p align="justify">Built-in Function adalah function yang sudah disediakan oleh PHP. Jadi kita nggak perlu membuat function-nya sendiri, tinggal
 memanggilnya sesuai kebutuhan.</p>
 
+#### 📎 Built in Function untuk waktu
+```php
+    date() → Digunakan untuk menampilkan tanggal/waktu dengan format tertentu.
+    time() → Digunakan untuk menghasilkan Unix timestamp saat ini.
+    mktime() → Digunakan untuk membuat timestamp dari tanggal/waktu tertentu.
+    strtotime() → Digunakan untuk mengubah string tanggal/waktu menjadi timestamp.
+    format penting:
+    d = tanggal 2 digit
+    m = bulan 2 digit
+    Y = tahun 4 digit
+    l = nama hari lengkap
+    H = jam 24 jam
+    i = menit
+    s = detik
+```
+
+#### 📎 Built in Function untuk string
+```php
+    strlen() → Digunakan untuk menghitung panjang string.
+    strcmp() → Digunakan untuk membandingkan dua string.
+    explode() → Digunakan untuk memecah string menjadi array berdasarkan delimiter.
+    strtolower() → Digunakan untuk mengubah string menjadi huruf kecil.
+    stripslashes() → Digunakan untuk menghapus backslash dari string.
+    htmlspecialchars() → Digunakan untuk mengubah karakter khusus HTML menjadi bentuk aman untuk ditampilkan sebagai teks.
+```
+
+#### 📎 Built in Function untuk utility Function
+```php
+    isset() → Digunakan untuk mengecek apakah variabel/key tersedia dan nilainya bukan null.
+    empty() → Digunakan untuk mengecek apakah sebuah nilai dianggap kosong.
+    die() → Digunakan untuk menghentikan eksekusi script.
+    sleep() → Digunakan untuk menghentikan eksekusi script selama beberapa detik.
+    count() → Digunakan untuk menghitung jumlah elemen array.
+```
+
+---
+
+## 📦 Array pada PHP
+<p align="justify">Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Dalam PHP array ada 3 jenis yaitu Indexed
+Array atau array numerik, Associative Array, dan Multidimensional Array</p>
+
+#### 📎 Array Numerik (Array numerik adalah array yang setiap elemennya memiliki index berupa angka).
+```php
+    <?php
+        $buah = ["Apel", "Mangga", "Jeruk"];
+    
+        foreach ($buah as $b) {
+            echo $b;
+        }
+        // Output: Apel Mangga Jeruk
+    ?>
+```
+
+#### 📎 Array Associative (Array associative adalah array yang index-nya berupa key yang kita tentukan sendiri).
+```php
+    <?php
+        $data = [
+            "nama" => "Budi",
+            "umur" => 20,
+            "jurusan" => "Mekatronika"
+        ];
+        echo $data["umur"];
+        // Output: Mekatronika
+    ?>
+```
+
+#### 📎 Array Multidimensi (Array multidimensi adalah array yang di dalamnya terdapat array lainnya.).
+```php
+    <?php
+        $siswa = [
+            [
+                "nama" => "Rizal",
+                "umur" => 20
+            ],
+            [
+                "nama" => "Budi",
+                "umur" => 21
+            ]
+        ];
+        
+        foreach ($siswa as $data) {
+            echo "Nama : " . $data["nama"];
+            echo "<br>";
+        
+            echo "Umur : " . $data["umur"];
+            echo "<br><br>";
+        }
+        // Output:
+            Nama : Rizal
+            Umur : 20
+            
+            Nama : Budi
+            Umur : 21
+    ?>
+```
+
+---
